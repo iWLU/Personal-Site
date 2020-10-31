@@ -1,0 +1,38 @@
+body {
+  background-color: #222831;
+  color: #eeeeee;
+  font-style: normal;
+}
+
+h1{
+  font-family: 'Turret Road', cursive;
+  font-weight: lighter;
+}
+
+hr:after {
+  content: '∧∨∧∨∧∨∧∨∧';
+}
+
+hr{
+  text-align: center;
+  color: #5b6575;
+  border: none;
+  height: 50px;
+}
+
+a{
+  color: #5b6575;
+}
+
+a:hover{
+  color: #00adb5;
+}
+
+.mainrpic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width:175px;
+  height:175px;
+}
