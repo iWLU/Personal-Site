@@ -9,15 +9,12 @@ h1{
   font-weight: lighter;
 }
 
-hr:after {
-  content: '∧∨∧∨∧∨∧∨∧';
-}
-
 hr{
   text-align: center;
   color: #5b6575;
-  border: none;
-  height: 50px;
+  border: none;  
+  border-top: 5px dotted;
+  width: 25%;
 }
 
 a{
