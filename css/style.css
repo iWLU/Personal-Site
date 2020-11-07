@@ -1,35 +1,105 @@
 body {
-  background-color: #222831;
-  color: #eeeeee;
+  background-color: #292C38;
+  color: #DCDFD6;
+  display: flex;
+  flex-direction: column;
   font-style: normal;
+  margin: 0;
+  min-height: 100vh;
 }
-
+:root{
+  --font: 'Turret Road', cursive;
+  }
+/*
+DCDFD6
+5E8495
+4F585D
+7CA6B1
+292C38
+*/
+header{
+  font-family: var(--font);
+  height: 100%;
+  width: 100%;
+  display: block;
+  align-items: center;
+}
+nav a:hover{
+      background-color: rgba(255, 255, 255, 0.1);
+      border-top: 0px;
+      border-bottom: 0px;
+      border-style: solid;
+      border-color: #5E8495;
+      color: #DCDFD6;
+      border-radius: 5px;
+      font-weight: bold;
+}
+nav{
+  background-color: #7CA6B1 ;
+  height: 25%;
+  font-size: 1em;
+  width: 80%;
+  margin: 0 10% 0 10%;
+  border-radius: 50px 50px;
+  padding: 1%;
+}
+nav ul{
+  padding: 2%;
+  margin: 0%;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav a{
+  color: #292C38;
+  padding: 20%;
+  text-decoration: none;
+}
+.habout{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  margin: 0 15% 0 15%;
+  align-items: flex-start;
+}
 h1{
-  font-family: 'Turret Road', cursive;
-  font-weight: lighter;
+  font-family: var(--font)
 }
-
 hr{
   text-align: center;
   color: #5b6575;
-  border: none;  
+  border: none;
   border-top: 5px dotted;
-  width: 25%;
+  width: 45%;
 }
-
 a{
-  color: #5b6575;
+  color: #5E8495;
 }
-
-a:hover{
-  color: #00adb5;
-}
-
 .mainrpic{
   display: block;
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  width:175px;
-  height:175px;
+  width:15%;
+  height:15%;
+}
+.pages{
+  margin:3% 15% 3% 0%;
+  text-align: right;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #7CA6B1 ;
+  color: #292C38;
+  height: 10%;
+  margin-top: auto;
 }
