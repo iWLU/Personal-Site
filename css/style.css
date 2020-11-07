@@ -35,13 +35,13 @@ nav a:hover{
       font-weight: bold;
 }
 nav{
-  background-color: #ffffff;
+  background-color: #7CA6B1;
   height: 25%;
   font-size: 1em;
   width: 80%;
   margin: 0 10% 0 10%;
   border-radius: 50px 50px;
-  padding: 0%;
+  padding: 1.5%;
 }
 nav ul{
   list-style: none;
