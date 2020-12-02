@@ -1,25 +1,28 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-    <style media="screen">
-    body{
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <style media="screen">
+    body {
       color: white;
       margin: 0px;
       background-image: url(https://cutewallpaper.org/21/html-gif-background/50-Space-Wallpaper-Gif-on-WallpaperSafari.gif);
     }
-    body a{
+
+    body a {
       color: white;
       font-size: 1.2em
     }
-    nav{
+
+    nav {
       height: 75px;
       background-color: royalblue;
       background-color: black;
     }
 
-    header{
+    header {
       height: 400px;
       background-color: rgba(9, 10, 22, 0.89);
       padding: 5% 15% 5% 15%;
@@ -27,15 +30,17 @@
       text-align: center;
     }
 
-    .greybox{
-      height: 500px;
+    .greybox {
+      height: auto;
+      width: 100%;
       background-color: rgba(9, 10, 22, 0.89);
       display: flex;
-      justify-content: space-between;
-      align-items: flex-end;
+      flex-direction: row;
+      justify-content: space-around;
+      flex-flow: wrap;
     }
 
-    .prefooter{
+    .prefooter {
       display: flex;
       justify-content: space-around;
       align-items: center;
@@ -43,61 +48,56 @@
       background-color: rgba(9, 10, 22, 0.89);
     }
 
-    footer{
+    footer {
       height: 100px;
       background-color: black;
       color: white;
       text-align: center;
     }
-    footer h6{
+
+    footer h6 {
       margin: 0px;
       padding-top: 50px;
     }
-    #yellowp{
+
+    #yellowp {
       height: 200px;
+      width: auto;
       padding: 75px;
-      font-size: 2em;
+      font-size: 2rem;
       text-align: center;
       background-image: url(..//img/back1.jpg);
       margin: 0;
     }
-    #yellowp img{
-      max-width: 100%;
+
+    .orangebox1 {
+      width: 40%;
+      height: auto;
+      margin: 2rem;
+
     }
-    .orangebox1{
-      height: 400px;
-      width: 48%;
-      display: block;
-      position: relative;
-      overflow: hidden;
+
+    .orangebox1 img {
+      width: 100%;
     }
-    .orangebox1 img{
-       position: absolute;
-       bottom: 0;
-       left: 0;
-       width: 100%;
-       margin: 0;
+
+    .orangebox2 {
+      width: 40%;
+      height: auto;
+      margin: 2rem;
     }
-    .orangebox2{
-      height: 400px;
-      width: 48%;
-      display: block;
-      position: relative;
-      overflow: hidden;
+
+    .orangebox2 img {
+      width: 100%;
     }
-    .orangebox2 img{
-       position: absolute;
-       bottom: 0;
-       right: 0;
-       width: 100%;
-       margin: 0;
-    }
-    .main{
+
+    .main {
       background-color: black;
+      width: auto;
       margin: 75px 100px 75px 100px;
     }
 
-    nav ul{
+    nav ul {
       display: flex;
       list-style: none;
       justify-content: space-around;
@@ -106,54 +106,56 @@
       height: 75px;
     }
 
-    nav a{
+    nav a {
       text-decoration: none;
     }
-    nav a:hover{
+
+    nav a:hover {
       border-style: inset;
       padding: 10%;
     }
+  </style>
 
-    </style>
+</head>
 
-  </head>
 <body>
-   <nav>
-     <ul>
-       <li><a href="index.html">About</a></li>
-       <li><a href="page2.html">Skills</a></li>
-       <li><a href="contact.html">Contact</a></li>
-       <li><a href="parallax.html">Parallax</a></li>
-     </ul>
-   </nav>
+  <nav>
+    <ul>
+      <li><a href="index.html">About</a></li>
+      <li><a href="page2.html">Skills</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="parallax.html">Parallax</a></li>
+    </ul>
+  </nav>
 
-   <header>
+  <header>
     <p>Lorem ipsum dolor sit amet
-   </header>
+  </header>
 
-   <section class="main">
-     <p id="yellowp">
-       Lorem ipsum dolor sit amet
-     </p>
-     <section class="greybox">
-         <div class="orangebox1">
-            <div><img src="img/back2.jpg" alt="photo"></div>
-         </div>
-         <div class="orangebox2">
-           <div><img src="img/back3.jpg" alt="photo"></div>
-       </div>
-     </section>
-   </section>
+  <section class="main">
+    <p id="yellowp">
+      Lorem ipsum dolor sit amet
+    </p>
+    <section class="greybox">
+      <div class="orangebox1">
+        <img src="img/back2.jpg" alt="photo">
+      </div>
+      <div class="orangebox2">
+        <img src="img/back3.jpg" alt="photo">
+      </div>
+    </section>
+  </section>
 
-     <div class="prefooter">
-       <a href="contact.html">Previous Page</a>
-       <a href="parallax.html">Next Page</a>
-     </div>
+  <div class="prefooter">
+    <a href="contact.html">Previous Page</a>
+    <a href="parallax.html">Next Page</a>
+  </div>
 
-   <footer>
+  <footer>
     <h6>Copyright © 2020 Maksym Yashchuk. All Rights Reserved</h6>
-   </footer>
+  </footer>
 
 
- </body>
+</body>
+
 </html>
